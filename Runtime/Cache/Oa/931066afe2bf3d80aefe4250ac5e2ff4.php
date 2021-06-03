@@ -15,7 +15,7 @@
 </head>
 <body  class="gray-bg">
 <div class="wrapper wrapper-content animated fadeInUp">
-<form action="/index.php/oa/operationlog/buyuyuecaozuo" method="post" id="contact-form">
+<form action="/mbs/index.php/oa/operationlog/buyuyuecaozuo" method="post" id="contact-form">
 <div class="col-sm-12">
     <div class="ibox float-e-margins" id="shoujisf1">
         <div class="ibox-title">
@@ -100,7 +100,7 @@
                     </tbody>
                 </table>
        <!--  <div style="margin-top:-20px; margin-bottom:10px;">
-        <form method="POST" action="/index.php/oa/operationlog/ExcleDC_zixunyuan">
+        <form method="POST" action="/mbs/index.php/oa/operationlog/ExcleDC_zixunyuan">
         <input type="hidden" name="excle" value='<?php echo ($daochu); ?>' />
         <input type="hidden" name="excle1" value='<?php echo ($daochu_heji); ?>' />
         <input type="submit" name="submit_1" class="btn btn-white btn-sm" value="全部导出xls">

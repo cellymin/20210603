@@ -23,7 +23,7 @@
                 </a>
             </div>
         </div>
-        <form method="post" action="/index.php/oa/system_site/yybz_insert">
+        <form method="post" action="/mbs/index.php/oa/system_site/yybz_insert">
         <div class="ibox-content" style="padding-bottom:0px;">
               <table class="table table-striped table-hover">
                   <thead>

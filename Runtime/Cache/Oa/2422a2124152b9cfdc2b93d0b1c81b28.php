@@ -229,10 +229,19 @@
                                 <a class="J_menuItem" href="<?php echo U('Role/system_role');?>">权限组设置</a><!--9-->
                             </li>
                         <?php }else{ } if($_SESSION['user_role']==1){ ?>
-                        <!--   <li>
+                         <li>
                                 <a class="J_menuItem" href="<?php echo U('Role/system_auth');?>">系统结构组</a>
-                            </li> -->
+                            </li>
                              <?php }else{ } ?>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="#"><i class="icon icon-chatbox-xiaoxi">&#xe604;</i> <span class="nav-label">保留申请</span><span class="fa icon-chevron-left arrow"></span></a>
+                        <ul class="nav nav-second-level">
+                            <!-- <li><a class="J_menuItem" href="<?php echo U('Employee/employee_gonggao');?>">会员管理</a></li>
+                             <li><a class="J_menuItem" href="<?php echo U('Employee/employee_paiban');?>">库房管理</a></li>  -->
+                            <li><a class="J_menuItem" href="<?php echo U('ManageZx/application');?>">保留申请</a></li>
+                            <!-- <li><a class="J_menuItem" href="<?php echo U('Employee/employee_xiangmu');?>">项目管理</a></li> -->
                         </ul>
                     </li>
                 </ul>

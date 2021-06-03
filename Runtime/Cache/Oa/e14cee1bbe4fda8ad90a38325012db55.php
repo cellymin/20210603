@@ -41,7 +41,7 @@
               </tr>
               <tr style="display:none;">
                 <td>
-<form action="/index.php/oa/system_site/system_swttb" method="post"enctype="multipart/form-data">
+<form action="/mbs/index.php/oa/system_site/system_swttb" method="post"enctype="multipart/form-data">
 <input name="zx_timeStart" type="text" class="form-control layer-date" id="shijian1" placeholder="YYYY-MM-DD" value="<?php echo ($yestoday); ?>" style="width:260px; display:inline-block;"/>
 <input name="zx_timeEnd" type="text" class="form-control layer-date" id="shijian2" placeholder="YYYY-MM-DD"  value="<?php echo ($tomorrow); ?>" style="width:260px; display:inline-block;"/>
 <input type="hidden" name="yyid" value="<?php echo ($yyid); ?>">
@@ -51,7 +51,7 @@
               </tr>
               <tr>
                 <td>
-<form action="/index.php/oa/system_site/system_swt" method="post"enctype="multipart/form-data">
+<form action="/mbs/index.php/oa/system_site/system_swt" method="post"enctype="multipart/form-data">
 <input type="hidden" name="yyid" value="<?php echo ($yyid); ?>">
 <input type="file" name="swt" id="file" style="display:inline-block;"/>
 <input type="submit" name="submit" value="数据上传" class="btn btn-primary" id="xuanzhongz" style="display:inline-block;"/><br>

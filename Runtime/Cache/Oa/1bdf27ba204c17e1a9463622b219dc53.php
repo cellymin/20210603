@@ -19,7 +19,7 @@
         <h5><a class="collapse-link"><?php echo ($yyname); ?>-月到诊目标设置</a></h5>
         <div class="ibox-tools"> <a class="collapse-link"> <i class="fa fa-wrench"></i> </a> </div>
       </div>
-      <form method="post" action="/index.php/oa/system_site/system_yuemubiao">
+      <form method="post" action="/mbs/index.php/oa/system_site/system_yuemubiao">
         <div class="ibox-content" style="padding-bottom:0px;">
           <table class="table table-striped table-hover">
             <tbody>

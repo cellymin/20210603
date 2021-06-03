@@ -23,7 +23,7 @@
                 </a>
             </div>
         </div>
-        <form method="post" action="/index.php/oa/system_site/system_yyxinxi_update">
+        <form method="post" action="/mbs/index.php/oa/system_site/system_yyxinxi_update">
         <div class="ibox-content">
               <table class="table table-striped table-hover">
                   <thead>

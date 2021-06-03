@@ -26,7 +26,7 @@
                 </a>
             </div>
         </div>
-        <form method="post" action="/index.php/oa/system_site/bz_submit">
+        <form method="post" action="/mbs/index.php/oa/system_site/bz_submit">
         <div class="ibox-content">
               <table class="table table-striped table-hover">
                   <thead>
@@ -70,7 +70,7 @@
   <div class="layui-layer layui-anim layui-layer-page layer-ext-moon" style="z-index: 19891020; width:310px; height:260px; left:50%; margin-left:-155px;">
     <div class="layui-layer-title" style="cursor: move;">添加病种</div>
     <div class="layui-layer-content">
-<div class='animated'><form action='/index.php/oa/system_site/bz_insert' method='post' class='form-horizontal'><div class='ibox float-e-margins' style='margin-bottom:0px;'><div class='ibox-content'><div class='input-group m-b' style='margin-bottom:5px;'><span class='input-group-addon'>上级类</span><select name='P_id' class='form-control'><option value='0,0'>---顶级---</option><?php echo (column_down_e($StartColumnID)); ?></select></div><div class='input-group m-b' style='margin-bottom:5px;'><span class='input-group-addon'>添加类</span><input class='form-control' type='text' name='bz_name'/></div><div class='input-group'>添加多个类请用,号隔开（类1,类2,类3）</div><div class='form-group' align='center' style='margin-top:5px;'><button class='btn btn-primary' type='submit' name='submit_addhuifang'>确定添加</button></div></div></div></form></div>    </div>
+<div class='animated'><form action='/mbs/index.php/oa/system_site/bz_insert' method='post' class='form-horizontal'><div class='ibox float-e-margins' style='margin-bottom:0px;'><div class='ibox-content'><div class='input-group m-b' style='margin-bottom:5px;'><span class='input-group-addon'>上级类</span><select name='P_id' class='form-control'><option value='0,0'>---顶级---</option><?php echo (column_down_e($StartColumnID)); ?></select></div><div class='input-group m-b' style='margin-bottom:5px;'><span class='input-group-addon'>添加类</span><input class='form-control' type='text' name='bz_name'/></div><div class='input-group'>添加多个类请用,号隔开（类1,类2,类3）</div><div class='form-group' align='center' style='margin-top:5px;'><button class='btn btn-primary' type='submit' name='submit_addhuifang'>确定添加</button></div></div></div></form></div>    </div>
     <span class="layui-layer-setwin" id="tianjiabzxx"><a class="layui-layer-ico layui-layer-close layui-layer-close1" href="javascript:;"></a></span> </div>
 </div>
 
@@ -78,7 +78,7 @@
   <div class="layui-layer layui-anim layui-layer-page layer-ext-moon" style="z-index: 19891020; width:310px; height:260px; left:50%; margin-left:-155px;">
     <div class="layui-layer-title" style="cursor: move;">添加子病种</div>
     <div class="layui-layer-content">
-<div class='animated'><form action='/index.php/oa/system_site/bz_insert' method='post' class='form-horizontal'><div class='ibox float-e-margins' style='margin-bottom:0px;'><div class='ibox-content'><div class='input-group m-b' style='margin-bottom:5px;'><span class='input-group-addon'>上级类</span><select name='P_id' class='form-control' id='fuzhi1'></select></div><div class='input-group m-b' style='margin-bottom:5px;'><span class='input-group-addon'>添加类</span><input class='form-control' type='text' name='bz_name'/></div><div class='input-group'>添加多个类请用,号隔开（类1,类2,类3）</div><div class='form-group' align='center' style='margin-top:5px;'><button class='btn btn-primary' type='submit' name='submit_addhuifang'>确定添加</button></div></div></div></form></div>
+<div class='animated'><form action='/mbs/index.php/oa/system_site/bz_insert' method='post' class='form-horizontal'><div class='ibox float-e-margins' style='margin-bottom:0px;'><div class='ibox-content'><div class='input-group m-b' style='margin-bottom:5px;'><span class='input-group-addon'>上级类</span><select name='P_id' class='form-control' id='fuzhi1'></select></div><div class='input-group m-b' style='margin-bottom:5px;'><span class='input-group-addon'>添加类</span><input class='form-control' type='text' name='bz_name'/></div><div class='input-group'>添加多个类请用,号隔开（类1,类2,类3）</div><div class='form-group' align='center' style='margin-top:5px;'><button class='btn btn-primary' type='submit' name='submit_addhuifang'>确定添加</button></div></div></div></form></div>
     </div>
     <span class="layui-layer-setwin" id="tianjiazbzxx"><a class="layui-layer-ico layui-layer-close layui-layer-close1" href="javascript:;"></a></span> </div>
 </div>
